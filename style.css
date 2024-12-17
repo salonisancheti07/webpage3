@@ -1,0 +1,184 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("https://wallpapers.com/images/hd/dark-nature-lbb446efvstrkp58.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/* General styling for desktop */
+h1 {
+    color: #ffffff;
+    margin-left: 2%;
+    cursor: pointer;
+}
+
+.tag {
+    color: #ffffff;
+    margin-left: 40%;
+    font-weight: 600;
+    margin-top: -3%;
+    cursor: pointer;
+    display: flex;
+    gap: 35px;
+}
+
+.tag h2 {
+    height: 30px;
+    width: 100px;
+    margin-left: auto;
+    margin-top: -3%;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    background-color: #412857;
+    color: #ffffff;
+    padding: 5px 0;
+}
+
+.main {
+    height: 380px;
+    width: 300px;
+    border-radius: 10px;
+    background-color: rgb(11, 0, 0);
+    margin: 7% auto;
+    padding: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.main h3 {
+    height: 30px;
+    width: 90%;
+    margin: 5% auto;
+    color: black;
+    border: 1px solid white;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #ffffff;
+    padding: 5px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.email, .password {
+    margin: 5% auto;
+    width: 90%;
+}
+
+.main h4 {
+    height: 30px;
+    width: 90%;
+    margin: 10% auto;
+    border-radius: 5px;
+    color: #ffffff;
+    background-color: #412857;
+    text-align: center;
+    padding: 5px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.main p {
+    color: #ffffff;
+    text-align: center;
+    margin: 5% auto;
+}
+
+.social-icons {
+    margin: 5% auto;
+    text-align: center;
+}
+
+.social-icons a {
+    margin: 0 10px;
+    font-size: 30px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+/* Media Queries for Responsiveness */
+
+/* Tablet View (768px and below) */
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 24px;
+        margin-left: 5%;
+        text-align: center;
+    }
+
+    .tag {
+        flex-direction: column;
+        align-items: center;
+        margin: 5% auto;
+        font-size: 16px;
+        text-align: center;
+        gap: 10px;
+    }
+
+    .tag h2 {
+        margin: 10px auto;
+        width: 80px;
+        font-size: 16px;
+    }
+
+    .main {
+        width: 80%;
+        margin: 10% auto;
+        height: auto;
+    }
+
+    .main h3, .main h4 {
+        width: 100%;
+        font-size: 18px;
+    }
+
+    .social-icons a {
+        font-size: 24px;
+    }
+}
+
+/* Mobile View (480px and below) */
+@media screen and (max-width: 480px) {
+    h1 {
+        font-size: 20px;
+        text-align: center;
+        margin: 10px auto;
+    }
+
+    .tag {
+        margin: 10px auto;
+        text-align: center;
+        font-size: 14px;
+        gap: 8px;
+    }
+
+    .tag h2 {
+        margin: 10px auto;
+        font-size: 14px;
+        width: 70px;
+    }
+
+    .main {
+        width: 90%;
+        margin: 5% auto;
+        height: auto;
+        padding: 10px;
+    }
+
+    .main h3, .main h4 {
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .main p {
+        font-size: 14px;
+    }
+
+    .social-icons a {
+        font-size: 20px;
+    }
+}
